@@ -1,4 +1,4 @@
-# Rock Paper Scissors Game - Student Instructions
+# Rock Paper Scissors Game
 
 ## Overview
 
