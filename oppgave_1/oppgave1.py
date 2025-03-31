@@ -11,3 +11,8 @@ nøstetListe = [[1, 3],[4, 21, -2], [3, 4]]
 for liste in nøstetListe:
     for tall in liste:
         print(tall)
+
+
+
+# Når du har laget en løsning som fubgerer kan du komme til Awk og vise oss programmet ditt for å bli med i trekningen av premier!
+
