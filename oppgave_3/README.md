@@ -8,14 +8,13 @@ You've been provided with two files:
 
 ## How to Play
 
-1. Make sure both files are in the same directory
-2. Modify `your_bot.py` to implement your strategy (instructions below)
+1. Modify `your_bot.py` to implement your strategy (instructions below)
 3. Run the game executable:
-   - On macOS/Linux: write `./rps_game` in terminal
+   - write `./game` in terminal
 
 ## Creating Your Bot
 
-Open `your_bot.py` in a text editor (VS Code, etc.) and modify the `get_move()` method.
+Open `your_bot.py` in a text editor (VS Code, VIM, etc.) and modify the `get_move()` method.
 
 Your bot must return one of three moves:
 - `self.ROCK`
@@ -26,13 +25,21 @@ You can also change the `BOT_MODE` to either "normal" or "hard" to adjust the di
 
 ### Strategy Ideas
 
-Consider implementing these strategies:
+It may not be too hard to beat normal mode, but consider implementing these strategies if you want to beat hard mode:
 - Use randomness
 - Analyze patterns in the game
 - Implement counters to common strategies
-- Use game theory principles
 
-### Example Strategy
+
+### Example Strategies
+
+```python
+def get_move(self):
+
+    moves = self.ROCK
+
+    return move
+```
 
 ```python
 def get_move(self):
@@ -59,4 +66,4 @@ As you modify your bot, simply save the file and run the game again. The game wi
 - Scissors beats Paper
 - Paper beats Rock
 
-Good luck! 
+Good luck! Come find us at Awk for buns, coffee and some prizes!
