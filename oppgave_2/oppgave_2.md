@@ -8,7 +8,7 @@ For å kryptere en bokstav `x`, byttes den ut med bokstaven som er én plass til
 ### Eksempel
 Hvis nøkkelen er:
 ```
-OSYKQGEZHBLVRPXUCJMAWDTNFIÅÆØ
+OSYKQGEZHBLVRPXUCJMAWDTNFI
 ```
 
 Og meldingen som skal kodes er:
